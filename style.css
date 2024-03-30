@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(pexels-photo-268533.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bannner{
+    background-color: transparent;
+    font-family: cursive;
+    color: darkorange;
+}
+
+.name{
+    color: darkorange;
+    font-family: cursive;
+    padding: 10px 28px;
+    font-size: 30px;
+}
+
+.action{
+}
+
+.ul{
+    float: right;
+    display: flex;
+    list-style: none;
+    margin: -40px 40px;
+}
+
+div ul li{
+margin: -5px 15px;
+}
+
+ul li a{
+    text-decoration: none;
+        color: #fff;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 22px;
+        font-family: cursive;
+        transition: all 0.3s ease;
+}
+
+ul li a:hover,
+ul li a.active{
+    color: #1b1b1b;
+    background-color: #fff;
+}
+
+.slide{
+    padding: 0;
+    float: left;
+    display: block;
+}
+
+.nature{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    margin: 20px;
+}
+
+#img_1{
+    background-color: transparent;
+}
+
+#img_1{
+    margin-top: 20px;
+    width: auto;
+}
+
+#section1{
+    scroll-behavior: smooth;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media(max-width:850px) {
+    .name{
+        text-align: left;
+        margin: auto;
+        font-size: 25px;
+        float: inline-start;
+        display: flex;
+        font-weight: bold;
+    }
+}
